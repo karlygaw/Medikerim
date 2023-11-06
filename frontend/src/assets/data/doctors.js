@@ -5,23 +5,23 @@ import doctorImg03 from "../images/hero-img022.png";
 export const doctors = [
   {
     id: "01",
-    name: "Dr. Aleksandr Vitalevich",
+    name: "Dr. Saule Shakim",
     specialization: "Hirurg",
     avgRating: 4.8,
     totalRating: 272,
     photo: doctorImg01,
     totalPatients: 1500,
-    hospital: "Хирург, Sylhet.",
+    hospital: "Ordabasy audany emhanasy.",
   },
   {
     id: "02",
-    name: "Dr. Taşpulatov Baqdaulet",
-    specialization: "Neurologist",
+    name: "Dr. Taşpulatov Erzhan",
+    specialization: "Hirurg",
     avgRating: 4.8,
     totalRating: 272,
     photo: doctorImg02,
     totalPatients: 1500,
-    hospital: "Mount Adora Hospital, Sylhet.",
+    hospital: "Almaty balalar emhanasy.",
   },
   {
     id: "03",
@@ -31,6 +31,6 @@ export const doctors = [
     totalRating: 272,
     photo: doctorImg03,
     totalPatients: 1500,
-    hospital: "Mount Adora Hospital, Sylhet.",
+    hospital: "Astana ortalyq emhana.",
   },
 ];

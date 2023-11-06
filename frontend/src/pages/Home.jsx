@@ -11,12 +11,15 @@ import avatarIcon from "../assets/images/avatar-icon.png";
 import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
+import faqImg from "../assets/images/hero-img033.png";
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 import About from '../components/About/About.jsx';
 import ServiceList from '../components/Services/ServiceList';
 import featureImg from "../assets/images/doctor-img011.png";
 import DoctorList from "../components/Doctors/DoctorList";
+import FaqList from "../components/faq/FaqList.jsx";
+import Testimonial from "../components/Testimonial/Testimonial.jsx";
 
 const Home = () => {
     return (<>
@@ -214,6 +217,9 @@ const Home = () => {
             </div>
         </section>
         {/* ========= feature section end ========== */}
+
+
+
         {/* =========our greate doctors ======= */}
         <section>
             <div className="container">
@@ -224,7 +230,40 @@ const Home = () => {
                 <DoctorList />
             </div>
         </section>
-        {/* =========our greate doctors end ======= */}
+        {/* =========our great doctors end ======= */}
+
+        {/* ======= faq section ========== */}
+        <section>
+            <div className="container">
+                <div className="flex justify-between gap-[50px] lg:gap-0">
+                    <div className="w-1/2 hidden md:block">
+                        <img src={faqImg} alt="" />
+                    </div>
+
+                    <div className="w-full md:w-1/2">
+                        <h2 className="heading">Most questions by our beloved patients</h2>
+
+                        <FaqList />
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/* ======= faq section end ========== */}
+
+        {/* ======== testimonial ========== */}
+        <section>
+            <div className="container">
+                <div className="xl:w-[470px] mx-auto">
+                    <h2 className="heading text-center">Bızdıñ pacientter ne aitady?</h2>
+                    <p className="text__para text-center">Barlyǵyna álemdik deńgeıdegi qamqorlyq. Bizdiń densaýlyq saqtaý júıesi teńdesi joq bilikti medısınalyq kómekti usynady.
+                    </p>
+                </div>
+                <Testimonial />
+            </div>
+        </section>
+        {/* ======== testimonial end ========== */}
+
+        {/* ======= footer ======= */}
 
 
     </>

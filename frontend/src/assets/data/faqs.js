@@ -1,27 +1,27 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "Sizdiń densaýlyqqa qyzmetteriniz qandaı?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "One Medical sapasy men qoljetimdi qyzmet kórsetýdiń joǵary deńgeıin qamtamasyz etetin pasıentterdiń qajettilikterin eskere otyryp ázirlengen jaqsartylǵan medısınalyq kómek úlgisine negizdelgen. Biz buǵan ınovasıalyq dızaın, tutynýshylarǵa tamasha qyzmet kórsetý jáne tehnologıany tıimdi paıdalaný arqyly qol jetkizemiz.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Eger maǵan aýrýhanaǵa barý kerek bolsa ne bolady?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "One Medical sapasy men qoljetimdi qyzmet kórsetýdiń joǵary deńgeıin qamtamasyz etetin pasıentterdiń qajettilikterin eskere otyryp ázirlengen jaqsartylǵan medısınalyq kómek úlgisine negizdelgen. Biz buǵan ınovasıalyq dızaın, tutynýshylarǵa tamasha qyzmet kórsetý jáne tehnologıany tıimdi paıdalaný arqyly qol jetkizemiz.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Eger maǵan aýrýhanaǵa barý kerek bolsa ne bolady?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "One Medical sapasy men qoljetimdi qyzmet kórsetýdiń joǵary deńgeıin qamtamasyz etetin pasıentterdiń qajettilikterin eskere otyryp ázirlengen jaqsartylǵan medısınalyq kómek úlgisine negizdelgen. Biz buǵan ınovasıalyq dızaın, tutynýshylarǵa tamasha qyzmet kórsetý jáne tehnologıany tıimdi paıdalaný arqyly qol jetkizemiz.",
   },
   {
-    question: "Can I visit your medical office?",
+    question: "Men sizdiń medısınalyq kabınetińizge bara alamyn ba?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "One Medical sapasy men qoljetimdi qyzmet kórsetýdiń joǵary deńgeıin qamtamasyz etetin pasıentterdiń qajettilikterin eskere otyryp ázirlengen jaqsartylǵan medısınalyq kómek úlgisine negizdelgen. Biz buǵan ınovasıalyq dızaın, tutynýshylarǵa tamasha qyzmet kórsetý jáne tehnologıany tıimdi paıdalaný arqyly qol jetkizemiz.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: "Siz shuǵyl medısınalyq kómek kórsetesiz be?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "One Medical sapasy men qoljetimdi qyzmet kórsetýdiń joǵary deńgeıin qamtamasyz etetin pasıentterdiń qajettilikterin eskere otyryp ázirlengen jaqsartylǵan medısınalyq kómek úlgisine negizdelgen. Biz buǵan ınovasıalyq dızaın, tutynýshylarǵa tamasha qyzmet kórsetý jáne tehnologıany tıimdi paıdalaný arqyly qol jetkizemiz.",
   },
 ];
