@@ -1,4 +1,5 @@
-import React from "react"; //6.9k (gzipped: 2.7k)
+import React, { useState } from "react"; //6.9k (gzipped: 2.7k)
+import { useNavigate } from 'react-router-dom';
 
 import heroImg011 from "../assets/images/hero-img011.png";
 //import heroImg01 from "../assets/images/hero-img01.png";
@@ -21,7 +22,14 @@ import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/faq/FaqList.jsx";
 import Testimonial from "../components/Testimonial/Testimonial.jsx";
 
+
+
 const Home = () => {
+    const [roomId, setRoomID] = useState()
+    const navigate = useNavigate();
+    const handleJoin = () => {
+        navigate(`/room/${roomId}`)
+    }
     return (<>
 
         {/* ======= hero section ======= */}
@@ -38,6 +46,10 @@ const Home = () => {
 
                             <button className="btn">
                                 Qabyldauğa jazylu
+                            </button>
+                            <input type="text" placeholder="Enter RoomID" value={roomId} onChange={e => setRoomID(e.target.value)} />
+                            <button className="btn" onClick={handleJoin} style={{ backgroundColor: '#4fa9b0' }}>
+                                Kiru
                             </button>
                         </div>
 

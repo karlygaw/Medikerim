@@ -22,13 +22,17 @@ const navLinks = [
         path: '/contact',
         display: 'Contact'
     },
+    {
+        path: '/chat',
+        display: 'Med Ai Chat'
+    },
 ]
 
 const Header = () => {
 
     const headerRef = useRef(null)
     const menuRef = useRef(null)
-    const {user,role, token} = useContext(authContext)
+    const { user, role, token } = useContext(authContext)
 
     const handleStickyHeader = () => {
         window.addEventListener('scroll', () => {
@@ -74,29 +78,28 @@ const Header = () => {
                 {/* ========== nav right ========*/}
                 <div className='flex items-center gap-4'>
 
-                    {token && user ? ( 
-                      <div>
-                        <Link 
-                          to={`${
-                            role === 'doctor'
-                            ? '/doctors/profile/me'
-                            : '/users/profile/me'
-                            }`}
-                        >
-                            <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
-                                <img src={user?.photo} className='w-full rounded-full' alt="" />
-                            </figure>
-                        </Link>
-                      </div> 
+                    {token && user ? (
+                        <div>
+                            <Link
+                                to={`${role === 'doctor'
+                                        ? '/doctors/profile/me'
+                                        : '/users/profile/me'
+                                    }`}
+                            >
+                                <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
+                                    <img src={user?.photo} className='w-full rounded-full' alt="" />
+                                </figure>
+                            </Link>
+                        </div>
                     ) : (
-                      <Link to='/login'>
-                        <button className='bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]'>Kiru</button>
-                      </Link>
+                        <Link to='/login'>
+                            <button className='bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]'>Kiru</button>
+                        </Link>
                     )}
-                    
-                    
-                    
-                    
+
+
+
+
 
                     <span className='md:hidden' onClick={toggleMenu}>
                         <BiMenu className='w-6 h-6 cursor-pointer' />
