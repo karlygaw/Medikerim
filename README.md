@@ -1,1 +1,1 @@
-Medikerim project
+Medikerim projectqarlygash
