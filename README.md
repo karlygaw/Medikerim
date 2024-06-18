@@ -1,1 +1,1 @@
-Medikerim projectqarlygash
+Medikerim project made by qg
