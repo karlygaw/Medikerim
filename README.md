@@ -1,1 +1,1 @@
-Medikerim project made by qg. everyome can book a med
+Medikerim project made by qg. everyone can book a med
